@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>ALL TYPES OF FORM PRACTICE</h1>
+    <form action="server">
+        <label for="username">USERNAME</label>
+        <input type="text" placeholder="enter your username"id="username">
+        <br>
+        <label for="password">PASSWORD</label>
+        <input type="password" placeholder="enter your password"id="password">
+        <br>
+        <label for="gender">MALE</label>
+        <input type="checkbox" value="male" id="gender">
+        <br>
+        <label for="gender">FEMALE</label>
+        <input type="checkbox" value="female" id="gender">
+        <br>
+        <label for="apple">APPLE</label>
+        <input type="radio" id="apple" name="fruits" value="apple">
+        <label for="mango">MANGO</label>
+        <input type="radio" value="mango" id="mango" name="fruits">
+        <label for="banana">BANANA</label>
+        <input type="radio" id="banana" name="fruits" value="banana">
+        <br>
+        <h1>choose your field:</h1>
+        <br>
+        <select name="field" id="field">
+            <option>select any field</option>
+            <option value="prog">PROGRAMMER</option>
+            <option value="sales">SALES</option>
+            <option value="telecalling">TELECALLING</option>
+
+        </select>
+        <br>
+        <label for="vol">SET VOLUME</label>
+        <input type="range" id="vol" name="vol" min="0" max="100" step="5">
+        <br>
+
+
+        <label for="feedback">FEEDBACK</label>
+        <textarea id-="feedback" name="feedback" placeholder="please enter your feedback" rows="6" cols="40"></textarea>
+        <br>
+        <button type="submit">SUBMIT</button>
+
+    </form>
+    
+</body>
+</html>

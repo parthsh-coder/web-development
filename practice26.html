@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1 style="text-decoration: underline;">REGISTRATION FORM</h1>
+    <form action="server">
+        <h2>Name:</h2>
+        <label for="username"></label>
+        <input type="text" id="username" placeholder="full name">
+        <br>
+        <h2>Email:</h2>
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="Email_id">
+        <br>
+        <h2>Password:</h2>
+        <label for="Password"></label>
+        <input type="password" id="Password" placeholder="8 characters">
+        <br>
+        <h2>Confirm Password:</h2>
+        <label for="Cpassword"></label>
+        <input type="password" id="Cpassword" placeholder="8 characters">
+        <br>
+        <h2>Date Of Birth:</h2>
+        <label for="DOB"></label>
+        <input type="date" id="DOB" placeholder="dd/mm/yyyy">
+        <br>
+        <h2>Gender:</h2>
+        <input type="radio" value="Male" id="gender" name="gender">
+        <label for="gender">Male</label>
+        <input type="radio" value="Female" id="gender">
+        <label for="gender">Female</label>
+        <input type="radio" value="Other" id="gender">
+        <label for="gender">Other</label>
+        <br>
+        <h2>Insert your photo:</h2>
+        <input type="file" placeholder="no file" id="file">
+        <label for="file"></label>
+        <br>
+        <h2>insert your resume:</h2>
+        <input type="file" placeholder="no file chosen" id="resume">
+        <label for="resume"></label>
+        <br>
+        <h2>Security Questions:</h2>
+        <select>
+            <option>Select</option>
+            <option value="Ques1">What is AI</option>
+            <option value="Ques2">what is XML</option>
+            <option value="Ques3">what is javascript</option>
+            <option value="Ques4">what is cascading in css</option>
+        </select>
+        <BR>
+        <textarea id="Answer" rows="10" cols="30"></textarea>
+        <br>
+        <input type="checkbox"id="agree">
+        <label for="agree">I agree terms and conditions</label>
+        <br>
+        <button>Register</button>
+    </div>
+        
+
+    </form>
+</body>
+</html>
